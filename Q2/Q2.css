@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    border: 2px solid #004080; /* khung bao quanh trang */
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #004080;
+    color: white;
+}
+
+header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+nav {
+    background: #e6e6e6;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004080;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    width: 45%;
+}
+
+h2 {
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+    color: #004080;
+}
+
+footer {
+    text-align: center;
+    background: #004080;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
