@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #eeeeee;
+    margin: 30px;
+}
+
+form {
+    background: white;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgb(0 0 0 / 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px 20px 20px 20px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px 0;
+    font-weight: 600;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 1em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+    display: inline-block;
+}
+
+p {
+    margin: 10px 0 4px 0;
+    font-weight: 600;
+}
+
+button {
+    background: #007acc;
+    color: white;
+    font-weight: 700;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+button:hover {
+    background: #005fa3;
+}
